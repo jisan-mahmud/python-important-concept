@@ -30,4 +30,16 @@ def times():
 
 # print(times())
 
+##Generator using expresion
+sequence = (i for i in range(N))
 
+# print(next(sequence))
+# print(next(sequence))
+
+##use close method
+
+sequence = (i for i in range(N))
+
+print(next(sequence))
+# sequence.close
+# print(next(sequence))
